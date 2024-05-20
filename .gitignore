@@ -1,0 +1,11 @@
+*/__pycache__/
+pretrained/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*/*/*/*/__pycache__/
+samples
+processed_data
+.vscode/
+.tensorboard/*
+logs/*202*
+mmcv
