@@ -7,12 +7,10 @@ This is an official implementation for FakeFormer! [[📜Paper](https://arxiv.or
 <!-- ![alt text](./demo/fakeformer_performance.png?raw=true) -->
 <img src="./demo/fakeformer_performance.png" alt="Alt Text" style="width:50%; height:auto;">
 
-Contact: dat.nguyen@uni.lu. Any questions or discusses are welcomed!
+Contact: dat.nguyen@uni.lu. Any questions or discussions are welcome!
 
 
 ## Updates
-- [ ] -/-/2026: *Code refactor 🚀.*
-- [ ] -/-/2026: *An update version with more results on more challenging datasets 🌟.*
 - [x] 27/11/2025: *Release official code and pretrained weights 🌈.*
 - [x] 06/09/2024: *First version pre-released for this open source code 🌱.*
 
@@ -30,7 +28,7 @@ Results on 6 datasets ([CDF1, CDF2](https://github.com/yuezunli/celeb-deepfakefo
 
 
 ## Recommended Environment
-*For experiment purposes, we encourage the installment of the following libraries. Both Conda or Python virtual env should work.*
+*For experimental purposes, we encourage the installation of the following libraries. Both Conda or Python virtual env should work.*
 
 * CUDA: 11.4
 * [Python](https://www.python.org/): >= 3.8.x
@@ -78,7 +76,7 @@ Results on 6 datasets ([CDF1, CDF2](https://github.com/yuezunli/celeb-deepfakefo
     
     2. ***Prepare dataset***
         
-        1. Downloading [FF++](https://github.com/ondyari/FaceForensics) *Original* dataset for training data preparation. Following the original split convention, it is firstly used to randomly extract frames and facial crops:
+        1. Downloading [FF++](https://github.com/ondyari/FaceForensics) *Original* dataset for training data preparation. Following the original split convention, it is first used to randomly extract frames and facial crops:
             ```
             python package_utils/images_crop.py -d {dataset} \
             -c {compression} \
@@ -174,7 +172,7 @@ Results on 6 datasets ([CDF1, CDF2](https://github.com/yuezunli/celeb-deepfakefo
     ```
     ./scripts/test_sbi.sh
     ```
-    > ⚠️ *Please make sure you set the correct path to your download pre-trained weights in the config files.*
+    > ⚠️ *Please make sure you set the correct path to your downloaded pre-trained weights in the config files.*
 
     > ℹ️ *Flip test can be used by setting ```flip_test: True```*
     
@@ -182,7 +180,7 @@ Results on 6 datasets ([CDF1, CDF2](https://github.com/yuezunli/celeb-deepfakefo
 
 
 ## Contact
-Please contact dat.nguyen@uni.lu. Any questions or discussions are welcomed!
+Please contact dat.nguyen@uni.lu. Any questions or discussions are welcome!
 
 
 ## License
